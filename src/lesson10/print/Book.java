@@ -3,6 +3,7 @@ package lesson10.print;
 import java.util.Objects;
 
 public class Book implements Printable {
+    /*
     private String name;
 
     public Book(String name) {
@@ -40,5 +41,5 @@ public class Book implements Printable {
         return "Book{" +
                 "name='" + name + '\'' +
                 '}';
-    }
+    }*/
 }

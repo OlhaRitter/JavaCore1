@@ -3,6 +3,7 @@ package lesson9.homework;
 import lesson9.Shape;
 
 import java.util.Objects;
+import java.util.stream.IntStream;
 
 public abstract class Fruts {
     private int weight;
@@ -56,9 +57,6 @@ public abstract class Fruts {
         fruts[4]=apricot;
         //fruts[5] = apricot1;
 
-        for (Fruts buy : fruts) {
-            buy.weight();
-        }
 
     }
 }

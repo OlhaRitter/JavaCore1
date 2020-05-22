@@ -1,7 +1,7 @@
 package lesson10.print;
 
 public class PrintableDemo {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Book book1 = new Book("Book1");
         Book book2 = new Book("Book2");
 
@@ -15,5 +15,5 @@ public class PrintableDemo {
         }
 
         Magazine.printMagazine(printables);
-    }
+    }*/
 }
