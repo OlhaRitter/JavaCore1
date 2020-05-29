@@ -13,6 +13,7 @@ public class User {
         this.basket = basket;
     }
 
+
     public String getLogin() {
         return login;
     }
@@ -37,13 +38,20 @@ public class User {
         this.basket = basket;
     }
 
-    private static void compareNamber (String login,int password){
-
+ ///this
+    public static void avtorizacia(String login, int password){
     Scanner scanner = new Scanner(System.in);
-        if (scanner.hasNextInt()) {
+        System.out.print("Введите Ваш логин: ");
+        if (scanner.hasNext()) {
             login=scanner.nextLine();
-            password = scanner.nextInt();
-    } else {
-        System.out.println("значение введено не верно");
-    }}
+        } else {
+            System.out.println("Введены не буквы");
+    }
+        System.out.print("Введите Ваш пароль: ");
+        if (scanner.hasNextInt()) {
+            password=scanner.nextInt();
+        } else {
+            System.out.println("Введены не цифры");
+        }
+    }
 }

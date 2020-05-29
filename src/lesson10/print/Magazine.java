@@ -3,7 +3,7 @@ package lesson10.print;
 import java.util.Objects;
 
 public class Magazine implements Printable {
-   /* private String name;
+    private String name;
 
     public Magazine(String name) {
         this.name = name;
@@ -48,5 +48,5 @@ public class Magazine implements Printable {
         return "Magazine{" +
                 "name='" + name + '\'' +
                 '}';
-    }*/
+    }
 }

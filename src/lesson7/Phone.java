@@ -98,4 +98,13 @@ public class Phone {
     public int hashCode() {
         return Objects.hash(getNumber(), getModel());
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "number='" + number + '\'' +
+                ", model='" + model + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
 }

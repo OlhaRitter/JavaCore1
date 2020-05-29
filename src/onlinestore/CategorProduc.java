@@ -1,6 +1,5 @@
 package onlinestore;
 
-import java.util.Scanner;
 
 public class CategorProduc {
     public static void main(String[] args) {
@@ -11,9 +10,10 @@ public class CategorProduc {
 
         Product[] product = {product1, product2, product3, product4};
         Category category = new Category("Food", product);
+        Category category1 = new Category("Drink", product);
         Basket basket = new Basket(product);
+        category.toString();//2 задание
+        category.choosProduct();
+
     }
-    void compareNamber(){
-        System.out.println("");
-    };
 }
